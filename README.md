@@ -1,4 +1,4 @@
-这个项目主要是数据结构与算法
+这个项目主要是数据结构/算法/设计模式，data-structure/algoruthm/desgin-pattern，简称dsad
 
 # 目录
 ## 一.算法
