@@ -13,7 +13,7 @@
 ```js
 ├── LICENSE // 开源证书
 ├── README.md
-├── code    // 代码位置
+├── test    // 测试代码
 │   ├── README.md
 │   ├── java // java代码
 │   │   └── README.md
