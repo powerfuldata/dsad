@@ -8,23 +8,5 @@
 
 ## 二.数据结构
 
+## 三.设计模式
 
-# 结构
-```js
-├── LICENSE // 开源证书
-├── README.md
-├── test    // 测试代码
-│   ├── README.md
-│   ├── java // java代码
-│   │   └── README.md
-│   ├── js  // js代码
-│   │   └── README.md
-│   └── python // python代码
-│       └── README.md
-└── doc
-    ├── README.md
-    ├── algrithm    // 算法文章
-    │   └── README.md
-    └── data-structure // 数据结构文章
-        └── README.md
-```
