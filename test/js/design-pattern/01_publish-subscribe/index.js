@@ -46,6 +46,7 @@ const PSManager = (function () {
     }
 
 })()
+// 状态管理器，存储商品数量、单价，总消费价格等信息
 var State = function(){
     var state = {
         phone: [8000,0,0], toy: [200,0,0], shoes: [400,0,0]
@@ -78,6 +79,7 @@ var State = function(){
         }
     }
 }()
+// 具体业务代码
 window.onload = function () {
     var btns = document.getElementsByTagName('button')
     var spans = document.getElementsByTagName('span')
@@ -94,9 +96,9 @@ window.onload = function () {
     }
     // 订阅消息
     PSManager.create('order_list').subscribe('phone',function(count){
-        lies[0].innerText = State.add('phone', count).getTip('phone')[0];
-        spans[0].innerText = `总商品数：${State.sum()}`;
-        spans[1].innerText = State.getTip('phone')[1]
+        lies[0].innerText = State.add('phone', count).getTip('phone')[0];// 刷新通知栏
+        spans[0].innerText = `总商品数：${State.sum()}`;// 刷新通知栏
+        spans[1].innerText = State.getTip('phone')[1]// 刷新订单列表
     })
     PSManager.create('order_list').subscribe('toy',function(count){
         lies[1].innerText = State.add('toy', count).getTip('toy')[0];
