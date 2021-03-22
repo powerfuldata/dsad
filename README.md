@@ -11,4 +11,5 @@
 ## 二.数据结构
 
 ## 三.设计模式
+- [发布订阅模式与观察者模式的区别-JavaScript](./doc/design-pattern/subscrib-publish_observer.md)
 
