@@ -94,3 +94,6 @@ logic = after(logic,function(){
 
 logic();
 ```
+
+## 参考文献
+- JavaScript设计模式与开发实践. 曾探. [D]
