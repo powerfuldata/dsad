@@ -119,3 +119,7 @@ var postorderTraversal1 = function(root) {
     return ret;
 };
 ```
+# 代码地址
+[前序](https://github.com/powerfuldata/dsad/blob/master/test/js/data-structure/tree/pretraverse.js)
+[中序](https://github.com/powerfuldata/dsad/blob/master/test/js/data-structure/tree/inorderTraversal.js)
+[后序](https://github.com/powerfuldata/dsad/blob/master/test/js/data-structure/tree/postorderTraversal.js)
