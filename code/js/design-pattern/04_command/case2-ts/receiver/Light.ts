@@ -1,7 +1,7 @@
 import {Command} from '../Command'
 
 // 灯
-class Light{
+export class Light{
     on(){
         console.log('light is On')
     }

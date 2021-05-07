@@ -1,13 +1,13 @@
 import {Command} from './Command'
 
-export class Client{
-    private command!: Command;
+export class Client {
+    private receiver!: Command;
 
-    setCommand(command: Command){
-        this.command = command;
+    setCommand(receiver: Command){
+        this.receiver = receiver;
     }
 
     invoke(){
-        this.command.excute()
+        this.receiver.excute()
     }
 }
