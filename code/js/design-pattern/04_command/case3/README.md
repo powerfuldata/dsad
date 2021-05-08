@@ -314,6 +314,9 @@ ChannelDown-频道撤回
 频道+,当前频道= 13
 ```
 
+源码
+[代码在github中，点击查看](https://github.com/powerfuldata/dsad/tree/master/code/js/design-pattern/04_command/case3)
+
 参考文献：
 - Head First设计模式
 - [菜鸟数据-命令模式](https://www.runoob.com/design-pattern/command-pattern.html)
