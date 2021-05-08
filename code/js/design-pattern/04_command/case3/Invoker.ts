@@ -12,5 +12,10 @@ export class Invoker{
     // 执行命令
     action(){
         this.command.excute();
-    }    
+    }
+    undo(){
+        if (this.command.undo){
+            this.command.undo();
+        }
+    }
 }
