@@ -9,7 +9,8 @@
 
 
 ## 二.数据结构
-- [循环队列设计](./code/js/data-structure/queque/01_circal_queue.js)
+- [循环队列设计](./doc/queue/01_circal_queue.md)
+
 
 
 ## 三.设计模式

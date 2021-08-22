@@ -188,3 +188,6 @@ queue=,,,,, head=2, tail=1, length=0,
 -------
 */
 ```
+# 参考文献
+
+[leetcode-设计循环队列](https://leetcode-cn.com/leetbook/read/queue-stack/kzlb5/)
