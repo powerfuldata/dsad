@@ -4,6 +4,7 @@
  * @循环队列概念 https://leetcode-cn.com/leetbook/read/queue-stack/kzlb5/
  */
 /**
+ * 构造函数
  * @param {number} k
  */
 var MyCircularQueue = function (k) {
