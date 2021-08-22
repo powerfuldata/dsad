@@ -20,7 +20,7 @@ var Subject = (function () {
      * @param {string} type 
      */
     var notifyObservers = function (type, ...args) {
-        if (observerMap.get(type)) {
+        if (observerMap.get(type)) {    
             Array.prototype.forEach.apply(observerMap.get(type), [function(callback,i,ary){
                 callback && callback.apply(null,args);// 执行回调
             }])
